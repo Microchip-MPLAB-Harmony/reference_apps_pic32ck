@@ -6,7 +6,7 @@ has_toc: false
 nav_order: 1
 ---
 # PIC32CK GC01 Curiosity Ultra Development Board
-<h4 align="left"> <img src = "image.jpg"> </h4>
+<h4 align="left"> <img src = "image.png"> </h4>
 
 
 This repository contains the MPLAB® Harmony 3 reference applications developed on [PIC32CK GC01 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev44p93a)   
