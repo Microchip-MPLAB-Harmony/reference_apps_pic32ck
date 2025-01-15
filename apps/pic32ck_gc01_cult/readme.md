@@ -1,4 +1,3 @@
-
 # PIC32CK GC01 Curiosity Ultra Development Board
 
 -------
