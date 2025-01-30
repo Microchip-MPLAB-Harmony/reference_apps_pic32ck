@@ -9,5 +9,11 @@ package:
   dependencies:
     - name: "csp"
       type: "package"
-      version: "v3.20.0-E1"
+      version: "v3.20"
+    - name: "core"
+      type: "package"
+      version: "v3.14"
+    - name: "FreeRTOS-Kernel"
+      type: "package"
+      version: "V11.1.0"
 
