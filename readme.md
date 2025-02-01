@@ -29,10 +29,9 @@ Following are the typical application types in this repository
 
 The above application types serve as a reference source to evaluate solutions for PIC32CK MCUs by developing applications using MPLAB Harmony 3 software framework.  
 
-<span style="color:blue"> Note: The application examples in this repository are an alternative source of reference covering the above types. MPLAB Harmony 3 provides more product-specific examples on peripherals, drivers and middleware technologies. More such examples are available in the product/technology-specific repositories. </span>  
-
 ### Note:
-Refer the MPLAB Harmony 3 GitHub [Launch page](https://github.com/Microchip-MPLAB-Harmony) to view the complete list of MPLAB Harmony 3 packages. In each of these packages refer the underlying “apps” folder for the applications offering.
+- The application examples in this repository are an alternative source of reference covering the above types. MPLAB Harmony 3 provides more product-specific examples on peripherals, drivers and middleware technologies. More such examples are available in the product/technology-specific repositories.
+- Refer the MPLAB Harmony 3 GitHub [Launch page](https://github.com/Microchip-MPLAB-Harmony) to view the complete list of MPLAB Harmony 3 packages. In each of these packages refer the underlying “apps” folder for the applications offering.
 
 **To know more about 32-bit Microcontroller Applications, Reference Designs and Solutions, [Click Here](https://www.microchip.com/en-us/tools-resources/reference-designs)**
 
@@ -51,7 +50,8 @@ Refer the MPLAB Harmony 3 GitHub [Launch page](https://github.com/Microchip-MPLA
 
 Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=REFERENCE_APPLICATIONS_FOR_PIC32CK_MCUS_OVERVIEW&redirect=true) to view the online documentation of this repository.
 
-To view the documentation offline, follow these steps:
+To view the documentation offline, follow these steps:  
+
  - Download the publication as a zip file from [here](https://onlinedocs.microchip.com/download/GUID-871C1A59-576B-4870-A6F2-F3B8DA604BD6?type=webhelp).
  - Extract the zip file into a folder.
  - Navigate to the folder and open **index.html** in a web browser of your choice.                 |
