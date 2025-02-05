@@ -21128,7 +21128,7 @@
       </entry>
       <entry>
          <file>..\..\firmware\src\config\pic32ck_sg01_cult\definitions.h</file>
-         <hash>e87b329599e5211a741c2477648dfdf93fc23ee3b0b0a8f6cd345c9c02b0f28d</hash>
+         <hash>01caadbfe6a9ceaef1d7e0a8e9b31dd1a4542de8ad9727c3d2e794f423e2b06f</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\config\pic32ck_sg01_cult\device.h</file>
