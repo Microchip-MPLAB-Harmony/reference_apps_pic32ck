@@ -366,7 +366,7 @@
         <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep>if $(IsDebug) == "false"  ( rm -rf ${ProjectDir}/../../hex &amp;&amp; mkdir ${ProjectDir}/../../hex &amp;&amp; cp ${ProjectDir}/${ImageDir}/*.unified.hex ${ProjectDir}/../../hex)</makeCustomizationPostStep>
+        <makeCustomizationPostStep>rm -rf ${ProjectDir}/../../hex &amp;&amp; mkdir ${ProjectDir}/../../hex &amp;&amp; cp ${ProjectDir}/${ImageDir}/*.unified.hex ${ProjectDir}/../../hex</makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -374,7 +374,6 @@
       <C32>
         <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="enable-app-io" value="false"/>
         <property key="enable-omit-frame-pointer" value="false"/>
         <property key="enable-symbols" value="true"/>
@@ -431,8 +430,6 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
-        <property key="appendMe"
-                  value="-l:getting_started_drv_pic32ck_sg01_cult_secure_sg_veneer.lib"/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -474,7 +471,6 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -503,7 +499,6 @@
         <property key="use-indirect-calls" value="false"/>
       </C32CPP>
       <C32Global>
-        <property key="appendMe" value=""/>
         <property key="common-include-directories" value=""/>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>
@@ -610,8 +605,6 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-63ffffff"/>
-        <property key="programmerToGoFilePath"
-                  value="D:/A_Te/pic32ck_sg01_cult_getting_started_drv/firmware/getting_started_drv_pic32ck_sg01_cult.X/debug/pic32ck_sg01_cult/getting_started_drv_pic32ck_sg01_cult_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
