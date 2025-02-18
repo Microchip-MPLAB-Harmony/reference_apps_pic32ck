@@ -90,7 +90,6 @@
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/can.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/oscctrl.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/trng.h</itemPath>
-            <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/sig.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/sercom.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/idau.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/component/prm.h</itemPath>
@@ -177,7 +176,6 @@
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/usbhs.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/tcc4.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/tcc0.h</itemPath>
-            <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/sig.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/dsu.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/rstc.h</itemPath>
             <itemPath>../src/packs/PIC32CK2051GC01144_DFP/instance/sercom1.h</itemPath>
@@ -279,8 +277,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32CK-GC_DFP" vendor="Microchip" version="1.0.131"/>
         <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
+        <pack name="PIC32CK-GC_DFP" vendor="Microchip" version="1.0.131"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -394,7 +392,7 @@
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
-        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros" value="VECTOR_REGION=boot_rom"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
