@@ -1,4 +1,4 @@
-<config configName="default" projectName="tz_pic32ck_sg01_cult" configVersion="1.1" device="PIC32CK2051SG01144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.0">
+<config configName="pic32ck_sg01_cult" projectName="tz_pic32ck_sg01_cult" configVersion="1.1" device="PIC32CK2051SG01144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -39,7 +39,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.4"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -50,21 +50,21 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;261&quot; canvasWidth=&quot;857&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;GraphSettings canvasHeight=&quot;220&quot; canvasWidth=&quot;936&quot; dnOrder=&quot;0&quot;/&gt;
     &lt;PowerProfiles dnOrder=&quot;1&quot;&gt;
       &lt;Profile dnOrder=&quot;0&quot; id=&quot;profile0&quot; name=&quot;Main&quot;/&gt;
     &lt;/PowerProfiles&gt;
     &lt;ComponentGraph dnOrder=&quot;2&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;36&quot; y=&quot;65&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;170&quot; y=&quot;60&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;cmsis&quot; x=&quot;660&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;core&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;dfp&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;eic&quot; x=&quot;560&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;eic&quot; x=&quot;799&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;evsys&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;pm&quot; x=&quot;30&quot; y=&quot;226&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;rtc&quot; x=&quot;720&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;sercom4&quot; x=&quot;202&quot; y=&quot;99&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom5&quot; x=&quot;377&quot; y=&quot;77&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;pm&quot; x=&quot;400&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;rtc&quot; x=&quot;330&quot; y=&quot;80&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;sercom4&quot; x=&quot;169&quot; y=&quot;60&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;sercom5&quot; x=&quot;550&quot; y=&quot;60&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -492,20 +492,9 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE112"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE263"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE112&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;256&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE113"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE113&quot;&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE263&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
     &lt;/Values&gt;
@@ -514,66 +503,11 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE114"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE278"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE114&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;64&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE262"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE262&quot;&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE278&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE277"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE277&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE301"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE301&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;256&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE302"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE302&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="FUSE_SYMBOL_VALUE303"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;FUSE_SYMBOL_VALUE303&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;64&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -662,92 +596,6 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;GCLK_ID_5_FREQ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;60000000&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_ANSC_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_ANSC_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_ANS_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_ANS_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;256&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_AS_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_AS_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;255&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_BNSC_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_BNSC_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_BS_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_BS_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;32&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_RNS_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_RNS_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;64&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="IDAU_RS_SIZE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;IDAU_RS_SIZE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;64&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="NON_SEC_START_ADDRESS"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;NON_SEC_START_ADDRESS&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;202375168&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -1766,71 +1614,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_DIR"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_DIR&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_FUNCTION_TYPE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_FUNCTION_TYPE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_INEN"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_INEN&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_LAT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_LAT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_MODE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_MODE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_PERIPHERAL_FUNCTION"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_PERIPHERAL_FUNCTION&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_33_PULLEN"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_33_PULLEN&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;/&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_63_DIR"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_63_DIR&quot;&gt;
@@ -2040,12 +1823,39 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_72_DIR"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_72_DIR&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_72_FUNCTION_TYPE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_72_FUNCTION_TYPE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;SERCOM4_PAD1&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_72_INEN"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_72_INEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/core&gt;
+&lt;/core&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_72_LAT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_72_LAT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -2073,12 +1883,10 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_DIR"/>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PIN_72_PULLEN"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_DIR&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
-    &lt;/Values&gt;
+  &lt;core dnOrder=&quot;0&quot; id=&quot;PIN_72_PULLEN&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/core&gt;
 &lt;/core&gt;
 </value>
@@ -2089,17 +1897,6 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_NONSEC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;50331648&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_OUT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_OUT&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -2128,17 +1925,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PAD_9"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PAD_9&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;PA09&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG24"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG24&quot;&gt;
@@ -2155,17 +1941,6 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG25&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x1&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PINCFG9"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PINCFG9&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -2194,33 +1969,11 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PIN_9_USED"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PIN_9_USED&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX12"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX12&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x22&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/core&gt;
-&lt;/core&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="PORT_GROUP_0_PMUX4"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
-  &lt;core dnOrder=&quot;0&quot; id=&quot;PORT_GROUP_0_PMUX4&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0x0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -3718,14 +3471,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_CONFIG_FILTEN_15"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
   &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_CONFIG_FILTEN_15&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
-      &lt;/Boolean&gt;
-    &lt;/Attributes&gt;
-    &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
-    &lt;/Values&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/eic&gt;
 &lt;/eic&gt;
 </value>
@@ -3871,9 +3617,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_CONFIG_SENSE_15"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
   &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_CONFIG_SENSE_15&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;1&quot;/&gt;
-    &lt;/Values&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/eic&gt;
 &lt;/eic&gt;
 </value>
@@ -4472,6 +4216,159 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_0"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_0&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_1"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_1&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_10"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_10&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_11"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_11&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_12"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_12&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_13"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_13&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_14"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_14&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_15"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_15&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_2"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_2&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_3"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_3&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_4"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_4&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_5"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_5&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_6"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_6&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_7"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_7&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_8"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_8&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_9"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_9&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_INT_HANDLER_NAME_EIC_NSCHK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_INT_HANDLER_NAME_EIC_NSCHK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_NONSEC"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
   &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_NONSEC&quot;&gt;
@@ -4642,6 +4539,17 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
   &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_PRESCALER_TICKON&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/eic&gt;
+&lt;/eic&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="eic" name="EIC_SECURE_ALIAS"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;eic&gt;
+  &lt;eic dnOrder=&quot;0&quot; id=&quot;EIC_SECURE_ALIAS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;eic&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/eic&gt;
 &lt;/eic&gt;
 </value>
@@ -5064,17 +4972,6 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="evsys" name="GENERATOR_EIC_EXTINT_10_ACTIVE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;evsys&gt;
   &lt;evsys dnOrder=&quot;0&quot; id=&quot;GENERATOR_EIC_EXTINT_10_ACTIVE&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;eic&quot; value=&quot;false&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/evsys&gt;
-&lt;/evsys&gt;
-</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="evsys" name="GENERATOR_EIC_EXTINT_15_ACTIVE"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;evsys&gt;
-  &lt;evsys dnOrder=&quot;0&quot; id=&quot;GENERATOR_EIC_EXTINT_15_ACTIVE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;eic&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
@@ -6959,6 +6856,42 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_0_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_0_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_1_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_1_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_2_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_2_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_3_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_3_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_ADDR_TENBITEN"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_ADDR_TENBITEN&quot;&gt;
@@ -7004,6 +6937,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_MASTER_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_MASTER_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_PLIB_API_PREFIX"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_PLIB_API_PREFIX&quot;&gt;
@@ -7040,9 +6982,27 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_SLAVE_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_SLAVE_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="I2C_SLEWRATE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;I2C_SLEWRATE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="MULTI_IRQn"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;MULTI_IRQn&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
@@ -7119,6 +7079,24 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SERCOM_SPI_REG_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SERCOM_SPI_REG_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SERCOM_SPI_SLAVE_REG_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SERCOM_SPI_SLAVE_REG_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SERCOM_SYNCBUSY"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SERCOM_SYNCBUSY&quot;&gt;
@@ -7154,6 +7132,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SERCOM_USART_REG_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_REG_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SERCOM_USART_SOURCE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_SOURCE&quot;&gt;
@@ -7162,6 +7149,15 @@
         &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPIM_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPIM_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
 </value>
@@ -7260,6 +7256,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPIS_INTERRUPT_MODE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPIS_INTERRUPT_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPIS_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPIS_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
@@ -7493,9 +7498,36 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPI_RX_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPI_RX_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPI_STATUS_OVERRUN_MASK"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPI_STATUS_OVERRUN_MASK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPI_TX_COMPLETE_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPI_TX_COMPLETE_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="SPI_TX_READY_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;SPI_TX_READY_INT_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
@@ -7508,6 +7540,87 @@
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom4&quot; value=&quot;&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_BAUD_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_BAUD_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_CARD_DETECT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_CARD_DETECT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_CLOCK_OUTPUT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_CLOCK_OUTPUT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_DSNACK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_DSNACK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_GTIME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_GTIME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_INACK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_INACK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_MAXITER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_MAXITER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_RESET"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_RESET&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_7816_VCC_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_7816_VCC_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
 </value>
@@ -7536,6 +7649,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_CHARSIZE_BITS"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_CHARSIZE_BITS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_COMM_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_COMM_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
@@ -7599,6 +7721,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_DATA_BITS"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_DATA_BITS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_ERROR_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_ERROR_INT_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
@@ -7683,6 +7814,15 @@
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom4&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
 </value>
@@ -7814,6 +7954,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_RX_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_RX_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_RX_RING_BUFFER_SIZE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_RX_RING_BUFFER_SIZE&quot;&gt;
@@ -7890,9 +8039,27 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_TX_COMPLETE_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_TX_COMPLETE_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_TX_ENABLE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_TX_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_TX_READY_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_TX_READY_INT_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
@@ -7903,6 +8070,17 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
   &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_TX_RING_BUFFER_SIZE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom4&gt;
+&lt;/sercom4&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom4" name="USART_USE_FRACTIONAL_BAUD"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom4&gt;
+  &lt;sercom4 dnOrder=&quot;0&quot; id=&quot;USART_USE_FRACTIONAL_BAUD&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom4&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
   &lt;/sercom4&gt;
 &lt;/sercom4&gt;
 </value>
@@ -8123,6 +8301,42 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_0_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_0_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_1_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_1_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_2_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_2_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_3_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_3_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_ADDR_TENBITEN"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_ADDR_TENBITEN&quot;&gt;
@@ -8168,6 +8382,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_MASTER_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_MASTER_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_PLIB_API_PREFIX"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_PLIB_API_PREFIX&quot;&gt;
@@ -8204,9 +8427,27 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_SLAVE_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_SLAVE_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="I2C_SLEWRATE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;I2C_SLEWRATE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="MULTI_IRQn"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;MULTI_IRQn&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
@@ -8396,6 +8637,24 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_SPI_REG_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_SPI_REG_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_SPI_SLAVE_REG_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_SPI_SLAVE_REG_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_SYNCBUSY"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_SYNCBUSY&quot;&gt;
@@ -8431,6 +8690,32 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_USART_7816_HEADER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_7816_HEADER&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;String dnOrder=&quot;0&quot; id=&quot;security&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;NON_SECURE&lt;/Value&gt;
+      &lt;/String&gt;
+    &lt;/Attributes&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_USART_7816_SOURCE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_7816_SOURCE&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;String dnOrder=&quot;0&quot; id=&quot;security&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;NON_SECURE&lt;/Value&gt;
+      &lt;/String&gt;
+    &lt;/Attributes&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_USART_COMMON_HEADER"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_COMMON_HEADER&quot;&gt;
@@ -8457,6 +8742,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_USART_REG_NAME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_REG_NAME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SERCOM_USART_SOURCE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SERCOM_USART_SOURCE&quot;&gt;
@@ -8465,6 +8759,15 @@
         &lt;Value dnOrder=&quot;0&quot;&gt;NON_SECURE&lt;/Value&gt;
       &lt;/String&gt;
     &lt;/Attributes&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPIM_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPIM_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
 </value>
@@ -8563,6 +8866,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPIS_INTERRUPT_MODE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPIS_INTERRUPT_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPIS_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPIS_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
@@ -8796,6 +9108,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPI_RX_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPI_RX_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPI_STATUS_OVERRUN_MASK"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPI_STATUS_OVERRUN_MASK&quot;&gt;
@@ -8805,9 +9126,108 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPI_TX_COMPLETE_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPI_TX_COMPLETE_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="SPI_TX_READY_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;SPI_TX_READY_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="TRANSMIT_DATA_REGISTER"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;TRANSMIT_DATA_REGISTER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_BAUD_VALUE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_BAUD_VALUE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_CARD_DETECT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_CARD_DETECT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_CLOCK_OUTPUT"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_CLOCK_OUTPUT&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_DSNACK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_DSNACK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_GTIME"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_GTIME&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_INACK"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_INACK&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_MAXITER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_MAXITER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_RESET"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_RESET&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_7816_VCC_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_7816_VCC_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
@@ -8837,6 +9257,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_CHARSIZE_BITS"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_CHARSIZE_BITS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_COMM_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_COMM_MODE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
@@ -8900,6 +9329,15 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_DATA_BITS"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_DATA_BITS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_ERROR_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_ERROR_INT_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
@@ -8984,6 +9422,15 @@
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom5&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_MODE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_MODE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
 </value>
@@ -9117,6 +9564,15 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_RX_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_RX_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_RX_RING_BUFFER_SIZE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_RX_RING_BUFFER_SIZE&quot;&gt;
@@ -9193,9 +9649,27 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_TX_COMPLETE_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_TX_COMPLETE_INT_SRC&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_TX_ENABLE"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
   &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_TX_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;/&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_TX_READY_INT_SRC"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_TX_READY_INT_SRC&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;/&gt;
   &lt;/sercom5&gt;
 &lt;/sercom5&gt;
@@ -9210,98 +9684,109 @@
 &lt;/sercom5&gt;
 </value>
       </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sercom5" name="USART_USE_FRACTIONAL_BAUD"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sercom5&gt;
+  &lt;sercom5 dnOrder=&quot;0&quot; id=&quot;USART_USE_FRACTIONAL_BAUD&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sercom5&quot; value=&quot;false&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/sercom5&gt;
+&lt;/sercom5&gt;
+</value>
+      </entry>
    </tokenMap>
    <generatedFileHashHistoryMap class="java.util.TreeMap">
       <entry>
-         <file>..\..\firmware\src\config\default\PIC32CK2051SG01144.ld</file>
-         <hash>5f7dd639a3c66970c2742c325c848c65e36477767079e6e2ea2b5dc86a821e4e</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\PIC32CK2051SG01144.ld</file>
+         <hash>3c975a967fe36913102d8ca57ba715c9eedcca2867d1f5ade0a2c6865f864df4</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\definitions.h</file>
-         <hash>567d0492c5a4fe234b026585a38490e538403f8072320200acb69c1a9d5d068b</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\definitions.h</file>
+         <hash>d28d56af5de07774c062a9d9db3db86f0d01d5d36bcb54d7b5fe7123a48aa7c1</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\device.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\device.h</file>
          <hash>95d6f97f4d554a14e7c57121fb491fb1e9cb9d5f18b0e900c7d75226706d005d</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\device_cache.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\device_cache.h</file>
          <hash>5117c844c51e88132b384c381a94d9cc9e68777352e4ab4dc39c261d210b3ebd</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\device_vectors.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\device_vectors.h</file>
          <hash>dc853617f7875e6a95194e872e2657c222a3cfddd7349ba75e8e39e966c72b3a</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\exceptions.c</file>
-         <hash>1995a0a5c5dbdd4e52f2edd6ef778622835ab90ad0ad37b1ec6eb1b589db42ef</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\exceptions.c</file>
+         <hash>cb43fa61f2dd0433249ce1aa079d3911ceef2297f17ad29b6cf79dd70d6540d2</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\initialization.c</file>
-         <hash>9ad64cbff1d693974cc79fe9e2cc3f764fdf873c2572c274b2d5076941ec3a3d</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\initialization.c</file>
+         <hash>c11344624011181e7bb62462966ad7dca7056925681e8e3626b560374e574485</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\interrupts.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\interrupts.c</file>
          <hash>a0d09eab13d10cfa7a0137f041dae77c7bda657c99faa779480ce627d6b62fbe</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\interrupts.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\interrupts.h</file>
          <hash>706e4ec6379edfce49e533cb44e796dd601dede6c73e004d4e6ce6edac0f929b</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\libc_syscalls.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\libc_syscalls.c</file>
          <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\dma\plib_dma0.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\dma\plib_dma0.c</file>
          <hash>ef92e1209397acad3d91265fbc4185ef6caedc54d47de0d6b52b89cc4aaed159</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\dma\plib_dma0.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\dma\plib_dma0.h</file>
          <hash>a0802ad9090a4093af4dcae3b34a8de94789b36fb6b204859f2f36462bf9bc0c</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\nvic\plib_nvic.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\nvic\plib_nvic.c</file>
          <hash>0d1784fc36dd2faa6c85b29bf6e5acb3c3bbc5e8b1dc92814896d82e8573ca79</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\nvic\plib_nvic.h</file>
-         <hash>81e813a093101d546799e00723cbf7245e2d18471fa51c8d130c5809cecca03e</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\nvic\plib_nvic.h</file>
+         <hash>9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\port\plib_port.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\port\plib_port.c</file>
          <hash>c5272f06ad2d2ad55fd87b491edb908257f7ea7edcb721940d922743d3b41da6</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\port\plib_port.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\port\plib_port.h</file>
          <hash>e45f4c9a8506eb4fac3e74f1de0315ea4d7e57650f9350f3a3ac9454c340710e</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\sercom\usart\plib_sercom5_usart.c</file>
-         <hash>ccba8f08b1c01e5cd6d49a7e858e5f0b955392aa03c8ca1d71ffe0371c2cb4fe</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\sercom\usart\plib_sercom5_usart.c</file>
+         <hash>f1199ac22cd540619d35d145cb9d739793a6b99f74ad76e20d628788301895ee</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\sercom\usart\plib_sercom5_usart.h</file>
-         <hash>c1b506966a99e2e2c73d0a415917a028ce593d827e324d6035e5d5dbf135115f</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\sercom\usart\plib_sercom5_usart.h</file>
+         <hash>b164e53009f437f7e478c694766f9ed8acad87726f0322f067dfc5e45a1b9a27</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>f19dafabe0928d60dd83d7e19f35889f200e3fbadff09e2f42523d320acf780a</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
+         <hash>3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\pin_configurations.csv</file>
-         <hash>1261f40b0d071c67ae343b78cde585cc19d4331b2085128d6583d874f064f33d</hash>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\pin_configurations.csv</file>
+         <hash>b5488bb696e75fee8788307ecc8c77f932037ab1b3dd9de6b4232d37d3d3e94d</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\startup_xc32.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\startup_xc32.c</file>
          <hash>d12e568e013d079f9f82faf2f6125f6f6605a03d30d66892b0e84c4c21c272b8</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\stdio\xc32_monitor.c</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\stdio\xc32_monitor.c</file>
          <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
-         <file>..\..\firmware\src\config\default\toolchain_specifics.h</file>
+         <file>..\..\firmware\src\config\pic32ck_sg01_cult\toolchain_specifics.h</file>
          <hash>6fc0551b0fa3362678b3d7a227386fafa343140d31e4da3ad4af972e61cd0acb</hash>
       </entry>
       <entry>
@@ -9354,550 +9839,550 @@
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\ac.h</file>
-         <hash>8e5a4113717b1387a8e4f1b2a09442928cdbf57c2179604a9ed82551fafba074</hash>
+         <hash>9c8ef40ee89bc42ac249014a7b230598494f6ee6a472dc5b8ff3124d29662d95</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\adc.h</file>
-         <hash>a0f961d6e4eab7c3517497bcca29cfa79151f1d1d161ec27dba6008ea8e6c79e</hash>
+         <hash>ea52324e06a3eb8be6a4716881eb60287d62fc707057c0d3f444e5df4d252896</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\can.h</file>
-         <hash>a74438b4ddfea48aeda1f5541706d04d832e2594b061118aa28362bd44c5ad7d</hash>
+         <hash>1502386665257b3b7193279216b094662676ad9cdf548a5b200000b11104c2d9</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\ccl.h</file>
-         <hash>c5a94705fd47b297ac22e5bc1d5f54739a36349c25e2c5419601c187091b5d20</hash>
+         <hash>096a47340296fae68180c872ed1d9ff488b684d32e9df76e4b7b323e99212efb</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\cmcc.h</file>
-         <hash>daed0d8dd4e4ef7c27f6cd52fed08cf818d2e56b07553589d03d0905015b9426</hash>
+         <hash>68c749d8232340c680dee19d601b045ff3c59c8e0320e7d1daccffd45c175a6e</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\dma.h</file>
-         <hash>bfef531b4962a1dbe9796d77eab0a2fe2ed5fd841b7b89dfab44547c30ab66cb</hash>
+         <hash>a1a8f6426f59324c168b023f0e0b350c3fb24a41bdff1b9785f65c7501712614</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\dsu.h</file>
-         <hash>318944a5ed64fe25469093ffc5f97b454207b0823f463ce8401ca715bc05a239</hash>
+         <hash>94e320a4d0002203a62cab02ba9dd4fcb560a2f200d9f1119cdc94eec14a1c20</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\ebi.h</file>
-         <hash>ebb8c57d8d278ac6e7ef34d00cc44149a694f8d849266b5f9bf34fad97ece818</hash>
+         <hash>2920d185554f3fea0b12a3b890a6bb8495fa76a7775ea64424074e41565fce74</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\eic.h</file>
-         <hash>40b7109f8c64e62562910058028119ccf1578e9bf6757734fc4868a32a180c17</hash>
+         <hash>0b4530d596fbfc677419a833708d939d3212ce097af4ee4daa77d4781a9b1264</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\eth.h</file>
-         <hash>21d214fcadf010d43eaf6f490cf4740074328cc1470be21a9d3f7fde7c1e9eb0</hash>
+         <hash>fee8d3734ae51f86a29c69336515296e9cbcf06cfd3c211389e1d78c7672366e</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\evsys.h</file>
-         <hash>8c39b7d2cab1e3759ae01fa084e0a96a64b720eb88fb27702e90e3398b162c22</hash>
+         <hash>22e4400b2ef07aa2f4226b10e548d612987ebb7b230a2103b440deaec54ca9ae</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\fcr.h</file>
-         <hash>8ea5fb53ef02b4b3fd865bc20ef226590d042559c956bf42a396cc8802d886eb</hash>
+         <hash>a71822f6dfcd601afc0bf969e7018d700b3eeb0a8d10abcd12e76a44b29a4f06</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\fcw.h</file>
-         <hash>9e9c8bccd7b2f1c838f963594de7394796b528d3ce5da1235f975a54b669b7fb</hash>
+         <hash>aec31e730fa63dddcad50d505356f1a2d926b2b0f542595dbfb9eee376ef4afb</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\freqm.h</file>
-         <hash>056e8e9dd807afe6b1df818daa5bf427488b51e4ba828eed2d7fcd9fcc6c815f</hash>
+         <hash>3a913864c73d74094145b54bc898bda07bbe618c60b00ff894d71e7a3464e0ad</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\fuses.h</file>
-         <hash>e1075185369eac7c6bf71dfe7f4afa21e4d244bc4a9c6103986a6b03545db75c</hash>
+         <hash>53fbe282e6bda101443621a451258b8591bbcb69abc1a3e294d6c493ed46041a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\gclk.h</file>
-         <hash>f3872e87e39de50f51acdbd52fd750521efd7b52d5ac625de2528f2365c17563</hash>
+         <hash>15e2df2aebf6aa87207e0a3acb4539b3482d604995e61aded0157a163f7a781f</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\hmatrix2.h</file>
-         <hash>7df0e3ac623dfefd2b4e82c6ad4617fee906435aafe1c8e9e83808938691f8ab</hash>
+         <hash>57da22cc75c6c4c3bb6dbd34d6479715d709253019c94a44412744043fb59d2b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\hsm.h</file>
-         <hash>26c44ab5a649303fb077756c32491db46bfdf8c7d9f5cda0832b63f663aabe7b</hash>
+         <hash>ec23603242e2300129466c7126481c4f7349fae3482092d67fc9743f8b95b30a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\idau.h</file>
-         <hash>b63d005ae90d937d6be18078806aa03f93b494a50f95add051ba166007c1aa12</hash>
+         <hash>3d477928e9e6ff53c0a543729429e95fcb2a6194de72f4712f8d9658035b307c</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\mclk.h</file>
-         <hash>3432384e61dc111b31b7da2ea47d6787ad79c773124c2e61b6b5a51af4ac52ea</hash>
+         <hash>1cdf808cdf75ba8fbafe077ab247542cb1f8842269f407c1c368786aa6e12ac6</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\osc32kctrl.h</file>
-         <hash>e13bb3ecef262196715ddc2a37f10dee580ceba2d726a559b1883b77cd70aac9</hash>
+         <hash>73f3ee44c29f91f47376b69124c85ad4850cc141f0a16a7e241f6c804c1b77bf</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\oscctrl.h</file>
-         <hash>7536d0c1b2b08ef0a5f316806e3fc2a2a6a3537eccb5dfd8e513195e1861cdc6</hash>
+         <hash>480f1775501d85b2a85d1b70d3747f95efa627cda436e70416102e9cf5136b33</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\pac.h</file>
-         <hash>1cef6fb0f22f9054db93e014c02552d44369337d68776e02ddde2823e2ce3526</hash>
+         <hash>130f48eede17cb146754c1a3cb679dfd56a030ec63cda6233ed3f0669205b7af</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\pcc.h</file>
-         <hash>944ba0f8c6d845ba43b1ce1240860b8841251803ab9f60781effb4d0ba0c4acf</hash>
+         <hash>db7de8f80a4212f3195ad9671cb94840e62cd8f1f3fb71c9a642e7e93e37996b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\pdec.h</file>
-         <hash>4f68d7142f53b02531992bf1d8bf87cd081fd3ef6fe56bc78908a68413771a8d</hash>
+         <hash>682999057dd21f91615f78ea951cafea17c4472390101f1530fd50b215aa22d9</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\pm.h</file>
-         <hash>1c3eb1ed1bfaba353b98da1dd5b83d3dc20a9fe985253f1e4c975c910a0dfd4a</hash>
+         <hash>828f145e77bf77492919a83220580bf4544a82ea2c5b250ada50495d111c093a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\port.h</file>
-         <hash>3c22a5d2f6a2c4526c1fd7b97fdd56d0f7c3d588245645390283e6f1fc483c64</hash>
+         <hash>800928c3b5573683248d652307c98fe53f6a244b5dfb4c23e5ae175a5d18db6d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\prm.h</file>
-         <hash>c57d1e6e6cb2e1d51a27e5c27b85d4cb21f73b9c410cf505c281421f99e9436b</hash>
+         <hash>ffc41bb60a88b979814dfe1f71c647090775a41e4e8bfd54bab79747b71f9991</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\ptc.h</file>
-         <hash>918272cae2e66143f10c90c7e51844a77bcf8c84e16828000df053cd84beff2b</hash>
+         <hash>469fb50667c9aa974115c4730feb23985496b0a869f15cf7f4263fc1eaefbbec</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\rstc.h</file>
-         <hash>614797384cb0352f987692c16fa85fa562ec842a2e714531022507d1f230b7a2</hash>
+         <hash>283603676fdeb8df1fbfa8059f9a26663d773654f177329437f0be43f58a947a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\rtc.h</file>
-         <hash>784ece2c1ab05206e42d3639a22183f966f7d7ab696cda41b49351ff3ba78a75</hash>
+         <hash>bb19cb49c15d69d91ded3cd83f20ecee9ddede2e2f72da8282c49954ae43021c</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\sdmmc.h</file>
-         <hash>ba8a0570791c01eb5881f30ab9ad8b429b541d7d9eea2f4cc02a154ca155a9e8</hash>
+         <hash>19beb67fb4f4a07013b9bc9ac942562d3be803f4f51eca6b8b8f573907ad8272</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\sercom.h</file>
-         <hash>0cba22eeae600827a22f99e3087bf9eb21ff101802d6d9f46ed7a8aeed285777</hash>
+         <hash>f166bb6ae8ed12c35b267efe91e3004bcf98b560c4518edaab641674f7e54a1c</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\spi_ixs.h</file>
-         <hash>ea521d6a4391ea75f22fe2a4b64d9579c6863e3388e0c8a51a8bbe4b757807f9</hash>
+         <hash>7bc957c4461c2882b539f0b56e9aa26b65102c07f94e2bbad7ecd87726b07a70</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\sqi.h</file>
-         <hash>2b71d703ea216bb1189471e7bc2b42c714b7f8424fe317664d617428a649d7cf</hash>
+         <hash>df9c7a3e6ca3101fb4bebfb70a03baeccf33f847770f80d17185363d46c8579e</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\supc.h</file>
-         <hash>208bca9293573c6a4883df8b8f5555c5116c85f7e079af8795408dd25e2c3210</hash>
+         <hash>286f4a0067f81d11dd8586b443df8085cdca14ea191277ea054434a59564c3bb</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\tcc.h</file>
-         <hash>199b6c33aecd63cb18fdb22a03f466b9841762822793dfc497180bb2bf466ed5</hash>
+         <hash>214786f4fa66e44bfbdacff8e549dc64e3131f3af9557e4f1d38bc52bf7233ae</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\tram.h</file>
-         <hash>fae66a1ed3aeba909eb866e194b6cac6d6d81b7e70667df95741795f3d9a1fe4</hash>
+         <hash>04b40ed17eee6b7d959f39e9e1627714f833e0c36dd161afc5bc2b22de3c4426</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\trng.h</file>
-         <hash>da87e854a9043af278d823e5bce97fe93bc562562e1c1624b2ee498a24bd82c6</hash>
+         <hash>fa930b07cc1821ed15080e310ffd6998244ecf030f707813d1540a248198141a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\usb.h</file>
-         <hash>4352db4b4497c5f127877571fe13a9ad077bc7d641568411122078018103e29f</hash>
+         <hash>3898b1d1642ee4448608a47e687874d7b4890943de1ddc5a11b60798367d60e3</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\usbhs.h</file>
-         <hash>40a2084254fa8c25e95e2119480c30e83a7ca1b8e3730c2fba8db163f4101ac5</hash>
+         <hash>82f31bb70ff711dd33acda9e96398e68e8f0d19f2a6fcb561865d2eaec5bb9ab</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\component\wdt.h</file>
-         <hash>44f6876f66b6748e2c7b0cbd165fe7ea1da8c4f19acd352980a7d0894fb74315</hash>
+         <hash>ecf58555d5fa5f4f96e9493176a08b59fc5300b182e228a4c6baa98d7b7c5583</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\ac.h</file>
-         <hash>f161439a70435274708a10940b236c4a415efc05f5cc2280670a4d077a4c129b</hash>
+         <hash>3ab91e53c36edce6ac21553c270bcdcc83c8e091f9e6e561fcb738ef6e2aba66</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\adc.h</file>
-         <hash>5918aa6a4a6fe7b1930f061b56e84afe91c405dbea760f1f1bf23b2cf5d5e64a</hash>
+         <hash>3abaae1cba52fbdb93f25f06038ba9532617f5d456cbfd6292433a4e48e6bcea</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\can0.h</file>
-         <hash>e1da382ce263ad7d0f2d78d106303deea32292ba859bba8b8592fdbd764167a4</hash>
+         <hash>762d9b426487a282a18d760e1e19a000c2f3bff98b1cd04af70b5a71beb1585d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\can1.h</file>
-         <hash>a172e9688723418393c7592035a8c05c34181098c91e4f8f96abba03a2fd40fb</hash>
+         <hash>3229cea69201e12a5154de8fdeb9b819b54e8380ac88f47780e5433b4e5225b4</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\ccl.h</file>
-         <hash>79e091b4a9574698d54f9cbfef5da52e815b64089c03529f98c6cc56b9d74010</hash>
+         <hash>280d515c9ad7ac9d7427854aec42230e6c9d11b35d3303708a7c1b89f92cbd0f</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\cmcc.h</file>
-         <hash>b5821bc45bc936f6f772bfb1bcc50e12b7cd72a0871ebc8e794a2a2eaa128154</hash>
+         <hash>63052fab9d9195cefc4c1ea56d205cea409c2be4fd9275f70d2b305c4b28a23f</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\dma0.h</file>
-         <hash>367cafba84ef8aa5a3af6ae2c6589449375e82b60bcdd9acaf70a1efe97ed3e3</hash>
+         <hash>41527c1495cd8e75fadc8917301689d3e564faa1a325cc9f1e4a71c67276f2a7</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\dma1.h</file>
-         <hash>ebdd452c533453baff52ca74a66b7a0c6693cfe08158eae2c4c6e30c6bff499d</hash>
+         <hash>82e8695af239488329f1e5774cede9e9d2922b77a74a9fbf15ae175dc0ab331f</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\dsu.h</file>
-         <hash>2cc4d60c79f8af9d7f3f30a077003880e1369ac6c20f7d90c0218285b60b1d24</hash>
+         <hash>3659cd7be91e8818370c2fd8cdccc0561c7c56af61fbbb897e903df77b7e85a9</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\ebi.h</file>
-         <hash>00718712c9906bcac5744e9df2c60b0e5611fdb4130b31326427b0ecc0a19cef</hash>
+         <hash>bbc74df77248e3f6334ea999a2f07abcf2e1d20576bee89b6180db6a5a61419d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\eic.h</file>
-         <hash>8fc60645f4a6edc810068012b6b45ddb480fc4178c584391467bf38fa09838ae</hash>
+         <hash>125cb56c52e750f945e56ea53ab486b361ccb2a1e83e84a444e0c924d12333a3</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\eth.h</file>
-         <hash>8419b754d2a060a01d8e4b912bb5fb63eecfc2a83edb9edbc14cea9785e3233e</hash>
+         <hash>a73154859b12c6f0750409cc03bb8a42ca94d72feddd378c592ec08ca900e59f</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\evsys.h</file>
-         <hash>3c86262ddb5ecbf08633a84202f65df95ab3082f563b83b3860fae5f98e741f2</hash>
+         <hash>547ffe4e5daa84b53acf67c46ecc1770900bdd205989e2077c4202fd81056cc2</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\fcr.h</file>
-         <hash>2c08ec3329a844fcfca299bc954dc5c1b4203af29de0697b904ab2ed68c1d5e4</hash>
+         <hash>eb5995a24a6b6e1c0ab5f706424ca80886924d4a315970d89c15f03c3529d7ec</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\fcw.h</file>
-         <hash>0a7b388261aaeef6d4cfd97bf7175b8ac1f858a96d79ee432edf177b9add7cf4</hash>
+         <hash>2efea5835fffa12daa3197fd110a27c258b2f3bd9a9a614b6b611add104d5fe6</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\fpu_ns.h</file>
-         <hash>2affb3860107e74b7bc08e21fcd06115eee5450e51f2001debbe0bafa4abe360</hash>
+         <hash>46dfcfd5f8ccabc854f8283984b78df61b77565d55362dbc6773b63ef5867886</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\freqm.h</file>
-         <hash>d6df9cabc67e8d27807b7ecd1ce6e83494194654a1073bcc54675ee708ceea7a</hash>
+         <hash>2117afb90c0fc4b1381b3f0e46f7fa4086be3782e7bbec41d54ccaf2dc6f8be7</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\fuses.h</file>
-         <hash>1d7409adacedef8eddfba919e23a6adfb13924d97f16e2c5b37b4c8370377bda</hash>
+         <hash>5aef1d3280e3383db8775b09c3fd2dd268cc301eb083de3dad90e2c16e247f7c</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\gclk.h</file>
-         <hash>13e854dbb0d938e8f3cea04e35656dc35561ae735d21a362acee5cec19a32c46</hash>
+         <hash>5a700f0021cfbb72720acddfb5c329c9a5781a451c555ace44d5518776f3c5ed</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\hmatrix.h</file>
-         <hash>a81f165489e0cef7cd15ded978c1ea55be0fcd6f82adbba6c2661e3eac05f85e</hash>
+         <hash>27ffbc36c3ac9e97379f3d8a93f3f3b1e147a838acf066326e4be967a7cc9b08</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\hsm.h</file>
-         <hash>67c87d4de811a43ec78b169e4290f8a478fa02621d7a078e98964c51d70e25fe</hash>
+         <hash>eeb43490adcb5867977efc25359fd8b275644d5e2e5e5a8c8a5f92c59008cf5d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\idau.h</file>
-         <hash>7a42ab0aeb1eb334a464f4de04e9777dbf552bb13917cb6c63de80b852d19d9b</hash>
+         <hash>73a0d5ca4ae50d8f039c97d0cbc7090607d8bf80c9a4ac6d40662d4d639bf436</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\mclk.h</file>
-         <hash>69d3d332c937a16bd62ec6ae25e28a49ff2363243513f8572986c2914b4e1b73</hash>
+         <hash>e26f9d8ba7b6b447e095aac2f208c4ba946c1f9456db75c61e45e29d70780875</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\osc32kctrl.h</file>
-         <hash>5dc89936d140cc65e63e5fd2d89067eacd60d0f50d933d5b8525cd43c85a2341</hash>
+         <hash>9b4d1872d8692e9caa241371ab2e92445255291ded776bb36fbca08cc3b4db0a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\oscctrl.h</file>
-         <hash>4bdc2fb21b28041ae8924f704c72d5305905ab9bbebae5c2556284bee76d9c70</hash>
+         <hash>128d27a8eb3ca4bb305f9d9325b9a4f80b530a01077478429951fb8ce2d3bddd</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\pac.h</file>
-         <hash>54b349b696b6ed29be9a417804ac85ba9ae96f5b6b57aa3fd92f333357088005</hash>
+         <hash>12f1d87b64a29e84c8478bfa043dbb19476e03effaa83aab16b204c4384479b1</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\pcc.h</file>
-         <hash>c4be824b526cc340b817282eee244c124d1c1388dbdbeb680be3761b470abcbe</hash>
+         <hash>847b8e632c1ec772ba99a47268d1789d22d02dbb3ae515c42fe7f49a8f911b75</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\pdec.h</file>
-         <hash>b879555e60528cabc51e4c2c17a3c4d67fbd7aa8ff33b62abf714b0c710db28a</hash>
+         <hash>287852de950a0cbe76cbf39cc38847abdb4caefb5a9c6429901261ae81e55856</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\pm.h</file>
-         <hash>3534eb6596ef2f5911173a867337de03dd12a59ab2d8a4dc53cc8b6977777fd9</hash>
+         <hash>82c6d2636d6bc7c69b4adb52cf0ec21de28293a8025fafc41ef44661eb7859d4</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\port.h</file>
-         <hash>a4346d1c069d53152c746e0129fb2c5880e8f38b2f4d28348ab4397a27b8278a</hash>
+         <hash>3c957602ad78bd73c2b75b95887a894f0f9f4033761c944253f1066ccc6d2acf</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\prm.h</file>
-         <hash>b92cb4598e9fb43210e475712c3335ec534a7e998ab34ad395fc0a296b3516ec</hash>
+         <hash>2f39e8338137079bad8b44fd566363578485c446286b1081be694a6a77b9acbf</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\ptc.h</file>
-         <hash>bb14fb71fc349f4a5b3cb34fee673f1f84b78dd717e7ec1c9e9b260aa9c6bc73</hash>
+         <hash>976f58c394eabafd5d49d27a536339fd7e5385db17e0334e4bf51e66c16bf608</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\rstc.h</file>
-         <hash>f89c4eac862afd3b059684e8e019641f96d62b61f4c8b199c42120436cf3349e</hash>
+         <hash>cb24bad8b2c297b17fad9331278b23630b10fd51efba97de42c6564fcb02d9fe</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\rtc.h</file>
-         <hash>7f37ee4f41fc467b9a982caee8d80580e1a0e50c3c610b26a6b319a59e2c3a9b</hash>
+         <hash>c7903485e65645bcab6236233563f4dc0077cff07769b20a582ed3f19aa9bb03</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sdmmc0.h</file>
-         <hash>d7c8f0c2d61ee40886b61cc0bf47ddd2813b4ce8ddc82494f282c6890fb1b6a2</hash>
+         <hash>0a838730bf9241220d72b5f904e0e989646f3a342da2aa9a5f93639d35159bdf</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sdmmc1.h</file>
-         <hash>072595187821104b13e282a79c4cdb142f57aeadb67c38934dabb01599b31bc4</hash>
+         <hash>611c94d743feb8898e132798323d8846062b7a946e524f4ecfeb7033e473ff2d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom0.h</file>
-         <hash>86d21e52122e2b6d5a9a22a30208d30be0b473784eb7e090c7eeacbda33a9a01</hash>
+         <hash>d509f8e11e4625a7f04b7c56f5597e8739e0e859aa476ff710800a997e5c6438</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom1.h</file>
-         <hash>4cb786ae315a8831f0f53efc10efa5bb2e87a1cd62652f2d95a72e97943e37cb</hash>
+         <hash>7bd4b40118a70621e432438e715bb5be86c07aa378011e996f4e7655a6d5eb6a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom2.h</file>
-         <hash>c9ebfb67ba9d7a5b76450a8e92d0fcdec192199dc16a91a6c6ebcd0fdb97ed74</hash>
+         <hash>6b4f6f0c5da8836311a39552119aaf86382008eab5224df6deeab9ea4f455390</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom3.h</file>
-         <hash>f7fc4f3e86a40ca7a24d5a032f43f78c34f5ecfd781d6e0643cd1646f3cf49c1</hash>
+         <hash>cb95aadf9da3035725831e201d79b858f561a65dbafdf2943f4abe69fc2804ae</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom4.h</file>
-         <hash>334ccad0e41621a76318381656dfee24b0344747193e89d4d80871bbf41a0788</hash>
+         <hash>65c935aacc5e54c70da72c2560538d358fd7e2454b0b1ff1c07cbd3a23f5375b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom5.h</file>
-         <hash>7bfacbf6738b0d0232295bb659cfbff6ba782038405c87b64087b54ffbd52d53</hash>
+         <hash>859ce99917d4e009b83248f3bd7fa109e9b197ce74f0282f6cc4e5901f391f6b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom6.h</file>
-         <hash>986415a7ec9deb25df8719a21c33ce47dea1b766580aa4b551313730baa31d39</hash>
+         <hash>ae61d8baf6f753a4c541cfeee00b41a7c8eb13414843b7568f68007adacc0a45</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sercom7.h</file>
-         <hash>6772128c9db4bf3a6507544e738fde834ed181c277960c0537ec4bf28259d6b3</hash>
+         <hash>3dd9db1430739abcd112c1d4c05a0925bfb1405d3b9d5634eec45608042ce23c</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\spi_ixs.h</file>
-         <hash>a4d5b74d2d5179f70ac7f2ddb4b701eabde5a1fd432f7a8e49f6633dedb176c9</hash>
+         <hash>ce52b517fb9629e8e53a8c12557ee3f5cc3f4d653f2fe06262f596c0664a0e6a</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\sqi.h</file>
-         <hash>5780d8bd43cb936a6e174056edd828a0cc3b5b9158c61cd0d4bf9a79d6789ebb</hash>
+         <hash>4fc80a5457f9df7f98d407108f4f92181c3b25393fc08e4ce9f7340eb456d5ee</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\supc.h</file>
-         <hash>1831b5ce7268045cf2220f86aea5fd133aaafd94f815e95e8951173d9e66362e</hash>
+         <hash>2d2aa6b42c03441f9cbb0ca056e425f6d20936b2de1886dff6c1816b500bc3a7</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc0.h</file>
-         <hash>5530b5f8cba68c14f1ee99d0e9543f37150608580ec3b876d2c15eca5f9d7fd8</hash>
+         <hash>14db5dcca3f848237aa1026c58e7c449fa0831c450582c71385c3b29ce5963d5</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc1.h</file>
-         <hash>21a94d4741d0bd9ab0e1ec4c85eb7c6849b405cfa069ee54ae63fb784b4f459c</hash>
+         <hash>8886bda513ccb5cfd5bc63feb263d693893e76f9fd49476afec3da60047c0406</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc2.h</file>
-         <hash>7df79426dd4cd1cfbc7173b891941c7f452f9a0d08a185cdd7452c6489d19c30</hash>
+         <hash>7d80f2241a9c27df0020b80730cb183eec0e9800f18cef336cbeeafde469b27b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc3.h</file>
-         <hash>cfc4d9824b2c8972bcc86e0613068bdfe786a75c92c01d7790e4b5f899f99969</hash>
+         <hash>896cadb7f85ee8b4e1198d05c8de17f9ab182a58f7c3febe92ef3fb4eccd4f7d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc4.h</file>
-         <hash>a0fb1f029b49d22044cf5d985553ee579628ab41b29a6071654271da43c5fd55</hash>
+         <hash>0c7b868e51a4badfbb13ab4c28d2cf66efa8461b39434436881c632270e6be99</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc5.h</file>
-         <hash>eee13d8db3dc42ecb860eb86f8cba4aaf99aa7be921040ddce2a155344a01ebc</hash>
+         <hash>8548b536beaf176248054171231f1fb0c190c3f431b52ce88a526eaaf0c2789c</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc6.h</file>
-         <hash>918b81db5442b44e143f925016e939b2a140b6b9edb33ea99c1f002b2e2f325e</hash>
+         <hash>f6fd4681fd0ce28620eb4f1b1982f3d349aad1b175641753f7c7d127218a56b9</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tcc7.h</file>
-         <hash>afcf9718655e87ba3aca008d35ab5c11ca65c3f57185b7daa2454126684a636c</hash>
+         <hash>9cbdf33c8304d9f7e192e690e80c6f212a9b21905238a427f6785502498fd665</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\tram.h</file>
-         <hash>b1b468829005941ac8db045690f6288d93ef3737f9801560a13a0efe2d585b81</hash>
+         <hash>205f0890d98f9e58ad855e797f064b6c27dbc863c4950ce589a6de7857cad9bf</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\trng.h</file>
-         <hash>eee046720721b73dd7ba564a3ed2f9f544611c16777ae14ec171f2837e391d84</hash>
+         <hash>ed2d016ec5a22d2a4ece91e74a99fe3fa371d0a80d00617ce895d51be0165f5d</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\usb.h</file>
-         <hash>f5f1588d26c730e54ce1e6299f171cc5f359ef60a2a4a67a337ea234e09a2b3e</hash>
+         <hash>067d11292e821a1df72277f58d4277ab60fb320b19e8542848b7831bfc1b940b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\usbhs.h</file>
-         <hash>c47448429a6210930bbf995569fe41f8cdcbafebec76d38cc057d716a6966f44</hash>
+         <hash>5ad25be50f19d960f41dc83f1643a8ba74c8a59cbbeb89b122ed7bb39d47a7cb</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\instance\wdt.h</file>
-         <hash>dbd1a52cd551eff63c05ff87d33cf754bc34d581ec8ef8acdc20e03f8931c9ea</hash>
+         <hash>a432a10b685a9111a6b23e17e70e14502ae2ae41f40017a820f0d6b2aa9f131b</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\pic32ck2051sg01144.h</file>
-         <hash>67c0ce70971041ebc0599dbc5a02c331dfc49122fe527a5a3f16fcaeca308d38</hash>
+         <hash>e34ed67003208d8bb18bdecf0ae1ef0e867352a56e113faacebaf2c51b8d77b3</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\packs\PIC32CK2051SG01144_DFP\pio\pic32ck2051sg01144.h</file>
-         <hash>02aa60e3420d5a6e812fa5eac179346e61248c839a05a779edb8468a6d2be175</hash>
+         <hash>309a217bc7a328bae31ff74bcdb840fff21eaddf0c1d473ef27d0432037f0149</hash>
       </entry>
       <entry>
          <file>..\..\firmware\src\trustZone\nonsecure_entry.h</file>
          <hash>9e0dffed059e825cb174ea36db2db88b0ae63e786e393d9fcbe8a20c4078e598</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\PIC32CK2051SG01144.ld</file>
-         <hash>5f7dd639a3c66970c2742c325c848c65e36477767079e6e2ea2b5dc86a821e4e</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\PIC32CK2051SG01144.ld</file>
+         <hash>3c975a967fe36913102d8ca57ba715c9eedcca2867d1f5ade0a2c6865f864df4</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\definitions.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\definitions.h</file>
          <hash>e7775f8dbd744ce39006156d727476c24d8b71a26ae6aae0ee8bfc33fdeb7492</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\device.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\device.h</file>
          <hash>95d6f97f4d554a14e7c57121fb491fb1e9cb9d5f18b0e900c7d75226706d005d</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\device_cache.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\device_cache.h</file>
          <hash>5117c844c51e88132b384c381a94d9cc9e68777352e4ab4dc39c261d210b3ebd</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\device_vectors.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\device_vectors.h</file>
          <hash>2d94f780f70fa52c8b27af1283ea69bb368abbb89435a482ced7d6f66f6c30d4</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\exceptions.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\exceptions.c</file>
          <hash>2c3b450b059db8a8839fdf58893f4c471cb9254fbf22dd5a210c6f358b2776f4</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\initialization.c</file>
-         <hash>57df3296fcbf435d025721ce1511e55b779e8d81efdca03fc6dbf864c5b9273f</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\initialization.c</file>
+         <hash>9a55b240f81e21a5522834c5b7283d079d4f320d6caa53eae3704d11abb23d05</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\interrupts.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\interrupts.c</file>
          <hash>ec949d85aeb165bed7483b560ed8cd6f23fd8dc61606b5486ee2c1f1434dfaa0</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\interrupts.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\interrupts.h</file>
          <hash>3189631ff07aea89fc29b4fb2ac5e622f10fa6f9c189a3aee372bc610e1335fa</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\libc_syscalls.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\libc_syscalls.c</file>
          <hash>88bb2e34c939601b5b7ad076556e3ee0fcedf388436b8cddb6d6fd3e9d07472f</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\clock\plib_clock.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\clock\plib_clock.c</file>
          <hash>52edd6fa5f0b462998455508b2d2a02dac0f08a04e77d1ba6b7c32a8043c5a71</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\clock\plib_clock.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\clock\plib_clock.h</file>
          <hash>2cfe368b59fc1bf82ec42d12ce509c5ed8d4affa8c62ae702692709590b627d4</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\cmcc\plib_cmcc.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\cmcc\plib_cmcc.c</file>
          <hash>3b03e762c5515130718e7694736be6c25984ff8078c84d21a3fb9eba54f68e5d</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\cmcc\plib_cmcc.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\cmcc\plib_cmcc.h</file>
          <hash>89b940242bfa0ecdba3ac53666c5996e25fab712227d37d2d6881c8a86b5f497</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\eic\plib_eic.c</file>
-         <hash>98d1f9666c6e33f67669e7cfdc02808c6a90f9c7800d40d5f9780971fa64f5b1</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\eic\plib_eic.c</file>
+         <hash>d15f6cc5a141a783f2d0d6249aee19990fc7259da149e15300cba658d1cc3952</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\eic\plib_eic.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\eic\plib_eic.h</file>
          <hash>f0f5f2ec1f8091f3a5484967cc9e38b19a11cb00bf4c4af625541a17582a9b5c</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\evsys\plib_evsys.c</file>
-         <hash>b2e1a8004049e687fc5544133f3346f743ced50cdaf860c8e3c7f58df3cc163f</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\evsys\plib_evsys.c</file>
+         <hash>171913270aa095f1e8ff9192995129ff7bab22e5c793c4223f9046802e69d1e6</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\evsys\plib_evsys.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\evsys\plib_evsys.h</file>
          <hash>f7d08eb8162f271ce1db384c082586a6624e506aa7f502c64c4ab5a1aadac47d</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\nvic\plib_nvic.c</file>
-         <hash>ed65663cdcc5f88f99f95a9ab346eeec5e3196079810fb12e1d58f75bfca7b2d</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\nvic\plib_nvic.c</file>
+         <hash>108c4e1c6c4237929cea84ebe9df394d441e47758c27960c0df43e0da39cd5e5</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\nvic\plib_nvic.h</file>
-         <hash>81e813a093101d546799e00723cbf7245e2d18471fa51c8d130c5809cecca03e</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\nvic\plib_nvic.h</file>
+         <hash>9936ac782115af41003255283fa2f603f4ff2212d16275b7c80ea8d067a9e208</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\pm\plib_pm.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\pm\plib_pm.c</file>
          <hash>60aa79685bd6b100e17d137d25852ed6bc0a18528c5f21e795b176769a9f08ca</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\pm\plib_pm.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\pm\plib_pm.h</file>
          <hash>37890f6427dd8228e6743897f657f0d22cd7f8ea500c2b6e1bca643804728eb4</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\port\plib_port.c</file>
-         <hash>14b43165c7cb29291b2649c489ecd1a8dcf3daa631d2cfb616dcbd20cbe4a6f1</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\port\plib_port.c</file>
+         <hash>c73b6b033350ff2f8489642c911a1711c070c2c447dc89f7d793a0a2de753bf0</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\port\plib_port.h</file>
-         <hash>caaf724cb2f7ec1ba5de217aaee70a8f3b2913d16672173dcca4a03be71a7924</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\port\plib_port.h</file>
+         <hash>91bc626a4e47bd71625c97cb58b60406397d7140b22b838cce2e7955918d20a8</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\rtc\plib_rtc.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\rtc\plib_rtc.h</file>
          <hash>c40110efc92030902a1b7b678fb4b53c89888f9823e6c17ea8dfca48a0b0d06f</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\rtc\plib_rtc_timer.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\rtc\plib_rtc_timer.c</file>
          <hash>0d0620bfc7a0c033ff0192e159b24198f81728bc62576a064a5006737eb89ee7</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\sercom\i2c_master\plib_sercom4_i2c_master.c</file>
-         <hash>d1a72d0e468e60dbb784634136f7d32a8723560a8b51d72f8edaf789b8092401</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\sercom\i2c_master\plib_sercom4_i2c_master.c</file>
+         <hash>9560e1e057c172c7febfea66186eb221f9599d61aba783b4bbb5da11e56ccaa6</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\sercom\i2c_master\plib_sercom4_i2c_master.h</file>
-         <hash>dc268b12da9465edd4f8162e58b2745924ee2bf4e1ddaa057c9aa48ef03acae1</hash>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\sercom\i2c_master\plib_sercom4_i2c_master.h</file>
+         <hash>0d9da289458dd83bd3e10f360e4032b500f4c49f3af5878a02727d4085fc7c4b</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\peripheral\sercom\i2c_master\plib_sercom_i2c_master_common.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\peripheral\sercom\i2c_master\plib_sercom_i2c_master_common.h</file>
          <hash>f167b04b3c6a0f83fe41b7b6f810cbf0a48b8ca7d5a747b76463dd53d3c1a2a2</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\startup_xc32.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\startup_xc32.c</file>
          <hash>d12e568e013d079f9f82faf2f6125f6f6605a03d30d66892b0e84c4c21c272b8</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\stdio\xc32_monitor.c</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\stdio\xc32_monitor.c</file>
          <hash>5f5a687b7a63b5d88010003acaadf1ba2a00b188fb24407883a40760a3de08cd</hash>
       </entry>
       <entry>
-         <file>..\..\firmware_secure\src\config\default\toolchain_specifics.h</file>
+         <file>..\..\firmware_secure\src\config\pic32ck_sg01_cult\toolchain_specifics.h</file>
          <hash>6fc0551b0fa3362678b3d7a227386fafa343140d31e4da3ad4af972e61cd0acb</hash>
       </entry>
       <entry>
@@ -9950,419 +10435,419 @@
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\ac.h</file>
-         <hash>8e5a4113717b1387a8e4f1b2a09442928cdbf57c2179604a9ed82551fafba074</hash>
+         <hash>9c8ef40ee89bc42ac249014a7b230598494f6ee6a472dc5b8ff3124d29662d95</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\adc.h</file>
-         <hash>a0f961d6e4eab7c3517497bcca29cfa79151f1d1d161ec27dba6008ea8e6c79e</hash>
+         <hash>ea52324e06a3eb8be6a4716881eb60287d62fc707057c0d3f444e5df4d252896</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\can.h</file>
-         <hash>a74438b4ddfea48aeda1f5541706d04d832e2594b061118aa28362bd44c5ad7d</hash>
+         <hash>1502386665257b3b7193279216b094662676ad9cdf548a5b200000b11104c2d9</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\ccl.h</file>
-         <hash>c5a94705fd47b297ac22e5bc1d5f54739a36349c25e2c5419601c187091b5d20</hash>
+         <hash>096a47340296fae68180c872ed1d9ff488b684d32e9df76e4b7b323e99212efb</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\cmcc.h</file>
-         <hash>daed0d8dd4e4ef7c27f6cd52fed08cf818d2e56b07553589d03d0905015b9426</hash>
+         <hash>68c749d8232340c680dee19d601b045ff3c59c8e0320e7d1daccffd45c175a6e</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\dma.h</file>
-         <hash>bfef531b4962a1dbe9796d77eab0a2fe2ed5fd841b7b89dfab44547c30ab66cb</hash>
+         <hash>a1a8f6426f59324c168b023f0e0b350c3fb24a41bdff1b9785f65c7501712614</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\dsu.h</file>
-         <hash>318944a5ed64fe25469093ffc5f97b454207b0823f463ce8401ca715bc05a239</hash>
+         <hash>94e320a4d0002203a62cab02ba9dd4fcb560a2f200d9f1119cdc94eec14a1c20</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\ebi.h</file>
-         <hash>ebb8c57d8d278ac6e7ef34d00cc44149a694f8d849266b5f9bf34fad97ece818</hash>
+         <hash>2920d185554f3fea0b12a3b890a6bb8495fa76a7775ea64424074e41565fce74</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\eic.h</file>
-         <hash>40b7109f8c64e62562910058028119ccf1578e9bf6757734fc4868a32a180c17</hash>
+         <hash>0b4530d596fbfc677419a833708d939d3212ce097af4ee4daa77d4781a9b1264</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\eth.h</file>
-         <hash>21d214fcadf010d43eaf6f490cf4740074328cc1470be21a9d3f7fde7c1e9eb0</hash>
+         <hash>fee8d3734ae51f86a29c69336515296e9cbcf06cfd3c211389e1d78c7672366e</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\evsys.h</file>
-         <hash>8c39b7d2cab1e3759ae01fa084e0a96a64b720eb88fb27702e90e3398b162c22</hash>
+         <hash>22e4400b2ef07aa2f4226b10e548d612987ebb7b230a2103b440deaec54ca9ae</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\fcr.h</file>
-         <hash>8ea5fb53ef02b4b3fd865bc20ef226590d042559c956bf42a396cc8802d886eb</hash>
+         <hash>a71822f6dfcd601afc0bf969e7018d700b3eeb0a8d10abcd12e76a44b29a4f06</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\fcw.h</file>
-         <hash>9e9c8bccd7b2f1c838f963594de7394796b528d3ce5da1235f975a54b669b7fb</hash>
+         <hash>aec31e730fa63dddcad50d505356f1a2d926b2b0f542595dbfb9eee376ef4afb</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\freqm.h</file>
-         <hash>056e8e9dd807afe6b1df818daa5bf427488b51e4ba828eed2d7fcd9fcc6c815f</hash>
+         <hash>3a913864c73d74094145b54bc898bda07bbe618c60b00ff894d71e7a3464e0ad</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\fuses.h</file>
-         <hash>e1075185369eac7c6bf71dfe7f4afa21e4d244bc4a9c6103986a6b03545db75c</hash>
+         <hash>53fbe282e6bda101443621a451258b8591bbcb69abc1a3e294d6c493ed46041a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\gclk.h</file>
-         <hash>f3872e87e39de50f51acdbd52fd750521efd7b52d5ac625de2528f2365c17563</hash>
+         <hash>15e2df2aebf6aa87207e0a3acb4539b3482d604995e61aded0157a163f7a781f</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\hmatrix2.h</file>
-         <hash>7df0e3ac623dfefd2b4e82c6ad4617fee906435aafe1c8e9e83808938691f8ab</hash>
+         <hash>57da22cc75c6c4c3bb6dbd34d6479715d709253019c94a44412744043fb59d2b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\hsm.h</file>
-         <hash>26c44ab5a649303fb077756c32491db46bfdf8c7d9f5cda0832b63f663aabe7b</hash>
+         <hash>ec23603242e2300129466c7126481c4f7349fae3482092d67fc9743f8b95b30a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\idau.h</file>
-         <hash>b63d005ae90d937d6be18078806aa03f93b494a50f95add051ba166007c1aa12</hash>
+         <hash>3d477928e9e6ff53c0a543729429e95fcb2a6194de72f4712f8d9658035b307c</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\mclk.h</file>
-         <hash>3432384e61dc111b31b7da2ea47d6787ad79c773124c2e61b6b5a51af4ac52ea</hash>
+         <hash>1cdf808cdf75ba8fbafe077ab247542cb1f8842269f407c1c368786aa6e12ac6</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\osc32kctrl.h</file>
-         <hash>e13bb3ecef262196715ddc2a37f10dee580ceba2d726a559b1883b77cd70aac9</hash>
+         <hash>73f3ee44c29f91f47376b69124c85ad4850cc141f0a16a7e241f6c804c1b77bf</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\oscctrl.h</file>
-         <hash>7536d0c1b2b08ef0a5f316806e3fc2a2a6a3537eccb5dfd8e513195e1861cdc6</hash>
+         <hash>480f1775501d85b2a85d1b70d3747f95efa627cda436e70416102e9cf5136b33</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\pac.h</file>
-         <hash>1cef6fb0f22f9054db93e014c02552d44369337d68776e02ddde2823e2ce3526</hash>
+         <hash>130f48eede17cb146754c1a3cb679dfd56a030ec63cda6233ed3f0669205b7af</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\pcc.h</file>
-         <hash>944ba0f8c6d845ba43b1ce1240860b8841251803ab9f60781effb4d0ba0c4acf</hash>
+         <hash>db7de8f80a4212f3195ad9671cb94840e62cd8f1f3fb71c9a642e7e93e37996b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\pdec.h</file>
-         <hash>4f68d7142f53b02531992bf1d8bf87cd081fd3ef6fe56bc78908a68413771a8d</hash>
+         <hash>682999057dd21f91615f78ea951cafea17c4472390101f1530fd50b215aa22d9</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\pm.h</file>
-         <hash>1c3eb1ed1bfaba353b98da1dd5b83d3dc20a9fe985253f1e4c975c910a0dfd4a</hash>
+         <hash>828f145e77bf77492919a83220580bf4544a82ea2c5b250ada50495d111c093a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\port.h</file>
-         <hash>3c22a5d2f6a2c4526c1fd7b97fdd56d0f7c3d588245645390283e6f1fc483c64</hash>
+         <hash>800928c3b5573683248d652307c98fe53f6a244b5dfb4c23e5ae175a5d18db6d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\prm.h</file>
-         <hash>c57d1e6e6cb2e1d51a27e5c27b85d4cb21f73b9c410cf505c281421f99e9436b</hash>
+         <hash>ffc41bb60a88b979814dfe1f71c647090775a41e4e8bfd54bab79747b71f9991</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\ptc.h</file>
-         <hash>918272cae2e66143f10c90c7e51844a77bcf8c84e16828000df053cd84beff2b</hash>
+         <hash>469fb50667c9aa974115c4730feb23985496b0a869f15cf7f4263fc1eaefbbec</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\rstc.h</file>
-         <hash>614797384cb0352f987692c16fa85fa562ec842a2e714531022507d1f230b7a2</hash>
+         <hash>283603676fdeb8df1fbfa8059f9a26663d773654f177329437f0be43f58a947a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\rtc.h</file>
-         <hash>784ece2c1ab05206e42d3639a22183f966f7d7ab696cda41b49351ff3ba78a75</hash>
+         <hash>bb19cb49c15d69d91ded3cd83f20ecee9ddede2e2f72da8282c49954ae43021c</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\sdmmc.h</file>
-         <hash>ba8a0570791c01eb5881f30ab9ad8b429b541d7d9eea2f4cc02a154ca155a9e8</hash>
+         <hash>19beb67fb4f4a07013b9bc9ac942562d3be803f4f51eca6b8b8f573907ad8272</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\sercom.h</file>
-         <hash>0cba22eeae600827a22f99e3087bf9eb21ff101802d6d9f46ed7a8aeed285777</hash>
+         <hash>f166bb6ae8ed12c35b267efe91e3004bcf98b560c4518edaab641674f7e54a1c</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\spi_ixs.h</file>
-         <hash>ea521d6a4391ea75f22fe2a4b64d9579c6863e3388e0c8a51a8bbe4b757807f9</hash>
+         <hash>7bc957c4461c2882b539f0b56e9aa26b65102c07f94e2bbad7ecd87726b07a70</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\sqi.h</file>
-         <hash>2b71d703ea216bb1189471e7bc2b42c714b7f8424fe317664d617428a649d7cf</hash>
+         <hash>df9c7a3e6ca3101fb4bebfb70a03baeccf33f847770f80d17185363d46c8579e</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\supc.h</file>
-         <hash>208bca9293573c6a4883df8b8f5555c5116c85f7e079af8795408dd25e2c3210</hash>
+         <hash>286f4a0067f81d11dd8586b443df8085cdca14ea191277ea054434a59564c3bb</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\tcc.h</file>
-         <hash>199b6c33aecd63cb18fdb22a03f466b9841762822793dfc497180bb2bf466ed5</hash>
+         <hash>214786f4fa66e44bfbdacff8e549dc64e3131f3af9557e4f1d38bc52bf7233ae</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\tram.h</file>
-         <hash>fae66a1ed3aeba909eb866e194b6cac6d6d81b7e70667df95741795f3d9a1fe4</hash>
+         <hash>04b40ed17eee6b7d959f39e9e1627714f833e0c36dd161afc5bc2b22de3c4426</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\trng.h</file>
-         <hash>da87e854a9043af278d823e5bce97fe93bc562562e1c1624b2ee498a24bd82c6</hash>
+         <hash>fa930b07cc1821ed15080e310ffd6998244ecf030f707813d1540a248198141a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\usb.h</file>
-         <hash>4352db4b4497c5f127877571fe13a9ad077bc7d641568411122078018103e29f</hash>
+         <hash>3898b1d1642ee4448608a47e687874d7b4890943de1ddc5a11b60798367d60e3</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\usbhs.h</file>
-         <hash>40a2084254fa8c25e95e2119480c30e83a7ca1b8e3730c2fba8db163f4101ac5</hash>
+         <hash>82f31bb70ff711dd33acda9e96398e68e8f0d19f2a6fcb561865d2eaec5bb9ab</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\component\wdt.h</file>
-         <hash>44f6876f66b6748e2c7b0cbd165fe7ea1da8c4f19acd352980a7d0894fb74315</hash>
+         <hash>ecf58555d5fa5f4f96e9493176a08b59fc5300b182e228a4c6baa98d7b7c5583</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\ac.h</file>
-         <hash>f161439a70435274708a10940b236c4a415efc05f5cc2280670a4d077a4c129b</hash>
+         <hash>3ab91e53c36edce6ac21553c270bcdcc83c8e091f9e6e561fcb738ef6e2aba66</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\adc.h</file>
-         <hash>5918aa6a4a6fe7b1930f061b56e84afe91c405dbea760f1f1bf23b2cf5d5e64a</hash>
+         <hash>3abaae1cba52fbdb93f25f06038ba9532617f5d456cbfd6292433a4e48e6bcea</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\can0.h</file>
-         <hash>e1da382ce263ad7d0f2d78d106303deea32292ba859bba8b8592fdbd764167a4</hash>
+         <hash>762d9b426487a282a18d760e1e19a000c2f3bff98b1cd04af70b5a71beb1585d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\can1.h</file>
-         <hash>a172e9688723418393c7592035a8c05c34181098c91e4f8f96abba03a2fd40fb</hash>
+         <hash>3229cea69201e12a5154de8fdeb9b819b54e8380ac88f47780e5433b4e5225b4</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\ccl.h</file>
-         <hash>79e091b4a9574698d54f9cbfef5da52e815b64089c03529f98c6cc56b9d74010</hash>
+         <hash>280d515c9ad7ac9d7427854aec42230e6c9d11b35d3303708a7c1b89f92cbd0f</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\cmcc.h</file>
-         <hash>b5821bc45bc936f6f772bfb1bcc50e12b7cd72a0871ebc8e794a2a2eaa128154</hash>
+         <hash>63052fab9d9195cefc4c1ea56d205cea409c2be4fd9275f70d2b305c4b28a23f</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\dma0.h</file>
-         <hash>367cafba84ef8aa5a3af6ae2c6589449375e82b60bcdd9acaf70a1efe97ed3e3</hash>
+         <hash>41527c1495cd8e75fadc8917301689d3e564faa1a325cc9f1e4a71c67276f2a7</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\dma1.h</file>
-         <hash>ebdd452c533453baff52ca74a66b7a0c6693cfe08158eae2c4c6e30c6bff499d</hash>
+         <hash>82e8695af239488329f1e5774cede9e9d2922b77a74a9fbf15ae175dc0ab331f</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\dsu.h</file>
-         <hash>2cc4d60c79f8af9d7f3f30a077003880e1369ac6c20f7d90c0218285b60b1d24</hash>
+         <hash>3659cd7be91e8818370c2fd8cdccc0561c7c56af61fbbb897e903df77b7e85a9</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\ebi.h</file>
-         <hash>00718712c9906bcac5744e9df2c60b0e5611fdb4130b31326427b0ecc0a19cef</hash>
+         <hash>bbc74df77248e3f6334ea999a2f07abcf2e1d20576bee89b6180db6a5a61419d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\eic.h</file>
-         <hash>8fc60645f4a6edc810068012b6b45ddb480fc4178c584391467bf38fa09838ae</hash>
+         <hash>125cb56c52e750f945e56ea53ab486b361ccb2a1e83e84a444e0c924d12333a3</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\eth.h</file>
-         <hash>8419b754d2a060a01d8e4b912bb5fb63eecfc2a83edb9edbc14cea9785e3233e</hash>
+         <hash>a73154859b12c6f0750409cc03bb8a42ca94d72feddd378c592ec08ca900e59f</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\evsys.h</file>
-         <hash>3c86262ddb5ecbf08633a84202f65df95ab3082f563b83b3860fae5f98e741f2</hash>
+         <hash>547ffe4e5daa84b53acf67c46ecc1770900bdd205989e2077c4202fd81056cc2</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\fcr.h</file>
-         <hash>2c08ec3329a844fcfca299bc954dc5c1b4203af29de0697b904ab2ed68c1d5e4</hash>
+         <hash>eb5995a24a6b6e1c0ab5f706424ca80886924d4a315970d89c15f03c3529d7ec</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\fcw.h</file>
-         <hash>0a7b388261aaeef6d4cfd97bf7175b8ac1f858a96d79ee432edf177b9add7cf4</hash>
+         <hash>2efea5835fffa12daa3197fd110a27c258b2f3bd9a9a614b6b611add104d5fe6</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\fpu_ns.h</file>
-         <hash>2affb3860107e74b7bc08e21fcd06115eee5450e51f2001debbe0bafa4abe360</hash>
+         <hash>46dfcfd5f8ccabc854f8283984b78df61b77565d55362dbc6773b63ef5867886</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\freqm.h</file>
-         <hash>d6df9cabc67e8d27807b7ecd1ce6e83494194654a1073bcc54675ee708ceea7a</hash>
+         <hash>2117afb90c0fc4b1381b3f0e46f7fa4086be3782e7bbec41d54ccaf2dc6f8be7</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\fuses.h</file>
-         <hash>1d7409adacedef8eddfba919e23a6adfb13924d97f16e2c5b37b4c8370377bda</hash>
+         <hash>5aef1d3280e3383db8775b09c3fd2dd268cc301eb083de3dad90e2c16e247f7c</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\gclk.h</file>
-         <hash>13e854dbb0d938e8f3cea04e35656dc35561ae735d21a362acee5cec19a32c46</hash>
+         <hash>5a700f0021cfbb72720acddfb5c329c9a5781a451c555ace44d5518776f3c5ed</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\hmatrix.h</file>
-         <hash>a81f165489e0cef7cd15ded978c1ea55be0fcd6f82adbba6c2661e3eac05f85e</hash>
+         <hash>27ffbc36c3ac9e97379f3d8a93f3f3b1e147a838acf066326e4be967a7cc9b08</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\hsm.h</file>
-         <hash>67c87d4de811a43ec78b169e4290f8a478fa02621d7a078e98964c51d70e25fe</hash>
+         <hash>eeb43490adcb5867977efc25359fd8b275644d5e2e5e5a8c8a5f92c59008cf5d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\idau.h</file>
-         <hash>7a42ab0aeb1eb334a464f4de04e9777dbf552bb13917cb6c63de80b852d19d9b</hash>
+         <hash>73a0d5ca4ae50d8f039c97d0cbc7090607d8bf80c9a4ac6d40662d4d639bf436</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\mclk.h</file>
-         <hash>69d3d332c937a16bd62ec6ae25e28a49ff2363243513f8572986c2914b4e1b73</hash>
+         <hash>e26f9d8ba7b6b447e095aac2f208c4ba946c1f9456db75c61e45e29d70780875</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\osc32kctrl.h</file>
-         <hash>5dc89936d140cc65e63e5fd2d89067eacd60d0f50d933d5b8525cd43c85a2341</hash>
+         <hash>9b4d1872d8692e9caa241371ab2e92445255291ded776bb36fbca08cc3b4db0a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\oscctrl.h</file>
-         <hash>4bdc2fb21b28041ae8924f704c72d5305905ab9bbebae5c2556284bee76d9c70</hash>
+         <hash>128d27a8eb3ca4bb305f9d9325b9a4f80b530a01077478429951fb8ce2d3bddd</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\pac.h</file>
-         <hash>54b349b696b6ed29be9a417804ac85ba9ae96f5b6b57aa3fd92f333357088005</hash>
+         <hash>12f1d87b64a29e84c8478bfa043dbb19476e03effaa83aab16b204c4384479b1</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\pcc.h</file>
-         <hash>c4be824b526cc340b817282eee244c124d1c1388dbdbeb680be3761b470abcbe</hash>
+         <hash>847b8e632c1ec772ba99a47268d1789d22d02dbb3ae515c42fe7f49a8f911b75</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\pdec.h</file>
-         <hash>b879555e60528cabc51e4c2c17a3c4d67fbd7aa8ff33b62abf714b0c710db28a</hash>
+         <hash>287852de950a0cbe76cbf39cc38847abdb4caefb5a9c6429901261ae81e55856</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\pm.h</file>
-         <hash>3534eb6596ef2f5911173a867337de03dd12a59ab2d8a4dc53cc8b6977777fd9</hash>
+         <hash>82c6d2636d6bc7c69b4adb52cf0ec21de28293a8025fafc41ef44661eb7859d4</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\port.h</file>
-         <hash>a4346d1c069d53152c746e0129fb2c5880e8f38b2f4d28348ab4397a27b8278a</hash>
+         <hash>3c957602ad78bd73c2b75b95887a894f0f9f4033761c944253f1066ccc6d2acf</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\prm.h</file>
-         <hash>b92cb4598e9fb43210e475712c3335ec534a7e998ab34ad395fc0a296b3516ec</hash>
+         <hash>2f39e8338137079bad8b44fd566363578485c446286b1081be694a6a77b9acbf</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\ptc.h</file>
-         <hash>bb14fb71fc349f4a5b3cb34fee673f1f84b78dd717e7ec1c9e9b260aa9c6bc73</hash>
+         <hash>976f58c394eabafd5d49d27a536339fd7e5385db17e0334e4bf51e66c16bf608</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\rstc.h</file>
-         <hash>f89c4eac862afd3b059684e8e019641f96d62b61f4c8b199c42120436cf3349e</hash>
+         <hash>cb24bad8b2c297b17fad9331278b23630b10fd51efba97de42c6564fcb02d9fe</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\rtc.h</file>
-         <hash>7f37ee4f41fc467b9a982caee8d80580e1a0e50c3c610b26a6b319a59e2c3a9b</hash>
+         <hash>c7903485e65645bcab6236233563f4dc0077cff07769b20a582ed3f19aa9bb03</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sdmmc0.h</file>
-         <hash>d7c8f0c2d61ee40886b61cc0bf47ddd2813b4ce8ddc82494f282c6890fb1b6a2</hash>
+         <hash>0a838730bf9241220d72b5f904e0e989646f3a342da2aa9a5f93639d35159bdf</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sdmmc1.h</file>
-         <hash>072595187821104b13e282a79c4cdb142f57aeadb67c38934dabb01599b31bc4</hash>
+         <hash>611c94d743feb8898e132798323d8846062b7a946e524f4ecfeb7033e473ff2d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom0.h</file>
-         <hash>86d21e52122e2b6d5a9a22a30208d30be0b473784eb7e090c7eeacbda33a9a01</hash>
+         <hash>d509f8e11e4625a7f04b7c56f5597e8739e0e859aa476ff710800a997e5c6438</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom1.h</file>
-         <hash>4cb786ae315a8831f0f53efc10efa5bb2e87a1cd62652f2d95a72e97943e37cb</hash>
+         <hash>7bd4b40118a70621e432438e715bb5be86c07aa378011e996f4e7655a6d5eb6a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom2.h</file>
-         <hash>c9ebfb67ba9d7a5b76450a8e92d0fcdec192199dc16a91a6c6ebcd0fdb97ed74</hash>
+         <hash>6b4f6f0c5da8836311a39552119aaf86382008eab5224df6deeab9ea4f455390</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom3.h</file>
-         <hash>f7fc4f3e86a40ca7a24d5a032f43f78c34f5ecfd781d6e0643cd1646f3cf49c1</hash>
+         <hash>cb95aadf9da3035725831e201d79b858f561a65dbafdf2943f4abe69fc2804ae</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom4.h</file>
-         <hash>334ccad0e41621a76318381656dfee24b0344747193e89d4d80871bbf41a0788</hash>
+         <hash>65c935aacc5e54c70da72c2560538d358fd7e2454b0b1ff1c07cbd3a23f5375b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom5.h</file>
-         <hash>7bfacbf6738b0d0232295bb659cfbff6ba782038405c87b64087b54ffbd52d53</hash>
+         <hash>859ce99917d4e009b83248f3bd7fa109e9b197ce74f0282f6cc4e5901f391f6b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom6.h</file>
-         <hash>986415a7ec9deb25df8719a21c33ce47dea1b766580aa4b551313730baa31d39</hash>
+         <hash>ae61d8baf6f753a4c541cfeee00b41a7c8eb13414843b7568f68007adacc0a45</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sercom7.h</file>
-         <hash>6772128c9db4bf3a6507544e738fde834ed181c277960c0537ec4bf28259d6b3</hash>
+         <hash>3dd9db1430739abcd112c1d4c05a0925bfb1405d3b9d5634eec45608042ce23c</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\spi_ixs.h</file>
-         <hash>a4d5b74d2d5179f70ac7f2ddb4b701eabde5a1fd432f7a8e49f6633dedb176c9</hash>
+         <hash>ce52b517fb9629e8e53a8c12557ee3f5cc3f4d653f2fe06262f596c0664a0e6a</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\sqi.h</file>
-         <hash>5780d8bd43cb936a6e174056edd828a0cc3b5b9158c61cd0d4bf9a79d6789ebb</hash>
+         <hash>4fc80a5457f9df7f98d407108f4f92181c3b25393fc08e4ce9f7340eb456d5ee</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\supc.h</file>
-         <hash>1831b5ce7268045cf2220f86aea5fd133aaafd94f815e95e8951173d9e66362e</hash>
+         <hash>2d2aa6b42c03441f9cbb0ca056e425f6d20936b2de1886dff6c1816b500bc3a7</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc0.h</file>
-         <hash>5530b5f8cba68c14f1ee99d0e9543f37150608580ec3b876d2c15eca5f9d7fd8</hash>
+         <hash>14db5dcca3f848237aa1026c58e7c449fa0831c450582c71385c3b29ce5963d5</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc1.h</file>
-         <hash>21a94d4741d0bd9ab0e1ec4c85eb7c6849b405cfa069ee54ae63fb784b4f459c</hash>
+         <hash>8886bda513ccb5cfd5bc63feb263d693893e76f9fd49476afec3da60047c0406</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc2.h</file>
-         <hash>7df79426dd4cd1cfbc7173b891941c7f452f9a0d08a185cdd7452c6489d19c30</hash>
+         <hash>7d80f2241a9c27df0020b80730cb183eec0e9800f18cef336cbeeafde469b27b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc3.h</file>
-         <hash>cfc4d9824b2c8972bcc86e0613068bdfe786a75c92c01d7790e4b5f899f99969</hash>
+         <hash>896cadb7f85ee8b4e1198d05c8de17f9ab182a58f7c3febe92ef3fb4eccd4f7d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc4.h</file>
-         <hash>a0fb1f029b49d22044cf5d985553ee579628ab41b29a6071654271da43c5fd55</hash>
+         <hash>0c7b868e51a4badfbb13ab4c28d2cf66efa8461b39434436881c632270e6be99</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc5.h</file>
-         <hash>eee13d8db3dc42ecb860eb86f8cba4aaf99aa7be921040ddce2a155344a01ebc</hash>
+         <hash>8548b536beaf176248054171231f1fb0c190c3f431b52ce88a526eaaf0c2789c</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc6.h</file>
-         <hash>918b81db5442b44e143f925016e939b2a140b6b9edb33ea99c1f002b2e2f325e</hash>
+         <hash>f6fd4681fd0ce28620eb4f1b1982f3d349aad1b175641753f7c7d127218a56b9</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tcc7.h</file>
-         <hash>afcf9718655e87ba3aca008d35ab5c11ca65c3f57185b7daa2454126684a636c</hash>
+         <hash>9cbdf33c8304d9f7e192e690e80c6f212a9b21905238a427f6785502498fd665</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\tram.h</file>
-         <hash>b1b468829005941ac8db045690f6288d93ef3737f9801560a13a0efe2d585b81</hash>
+         <hash>205f0890d98f9e58ad855e797f064b6c27dbc863c4950ce589a6de7857cad9bf</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\trng.h</file>
-         <hash>eee046720721b73dd7ba564a3ed2f9f544611c16777ae14ec171f2837e391d84</hash>
+         <hash>ed2d016ec5a22d2a4ece91e74a99fe3fa371d0a80d00617ce895d51be0165f5d</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\usb.h</file>
-         <hash>f5f1588d26c730e54ce1e6299f171cc5f359ef60a2a4a67a337ea234e09a2b3e</hash>
+         <hash>067d11292e821a1df72277f58d4277ab60fb320b19e8542848b7831bfc1b940b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\usbhs.h</file>
-         <hash>c47448429a6210930bbf995569fe41f8cdcbafebec76d38cc057d716a6966f44</hash>
+         <hash>5ad25be50f19d960f41dc83f1643a8ba74c8a59cbbeb89b122ed7bb39d47a7cb</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\instance\wdt.h</file>
-         <hash>dbd1a52cd551eff63c05ff87d33cf754bc34d581ec8ef8acdc20e03f8931c9ea</hash>
+         <hash>a432a10b685a9111a6b23e17e70e14502ae2ae41f40017a820f0d6b2aa9f131b</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\pic32ck2051sg01144.h</file>
-         <hash>67c0ce70971041ebc0599dbc5a02c331dfc49122fe527a5a3f16fcaeca308d38</hash>
+         <hash>e34ed67003208d8bb18bdecf0ae1ef0e867352a56e113faacebaf2c51b8d77b3</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\packs\PIC32CK2051SG01144_DFP\pio\pic32ck2051sg01144.h</file>
-         <hash>02aa60e3420d5a6e812fa5eac179346e61248c839a05a779edb8468a6d2be175</hash>
+         <hash>309a217bc7a328bae31ff74bcdb840fff21eaddf0c1d473ef27d0432037f0149</hash>
       </entry>
       <entry>
          <file>..\..\firmware_secure\src\trustZone\nonsecure_entry.c</file>

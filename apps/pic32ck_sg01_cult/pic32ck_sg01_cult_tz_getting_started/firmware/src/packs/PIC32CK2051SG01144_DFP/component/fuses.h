@@ -1,7 +1,7 @@
 /*
  * Component description for FUSES
  *
- * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2024 Microchip Technology Inc. and its subsidiaries.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2023-11-16T06:44:02Z */
+/* file generated from device description file (ATDF) version 2024-04-02T09:16:38Z */
 #ifndef _PIC32CKSG01_FUSES_COMPONENT_H_
 #define _PIC32CKSG01_FUSES_COMPONENT_H_
 
@@ -485,7 +485,10 @@
 #define FUSES_FUCFG12_NONSECC_USB_Pos         _UINT32_(21)                                         /* (FUSES_FUCFG12) BOOTROM NONSEC C Full Speed USB secure/non-secure Position */
 #define FUSES_FUCFG12_NONSECC_USB_Msk         (_UINT32_(0x1) << FUSES_FUCFG12_NONSECC_USB_Pos)     /* (FUSES_FUCFG12) BOOTROM NONSEC C Full Speed USB secure/non-secure Mask */
 #define FUSES_FUCFG12_NONSECC_USB(value)      (FUSES_FUCFG12_NONSECC_USB_Msk & (_UINT32_(value) << FUSES_FUCFG12_NONSECC_USB_Pos)) /* Assigment of value for NONSECC_USB in the FUSES_FUCFG12 register */
-#define FUSES_FUCFG12_Msk                     _UINT32_(0x003FFFFF)                                 /* (FUSES_FUCFG12) Register Mask  */
+#define FUSES_FUCFG12_NONSECC_EBI_Pos         _UINT32_(22)                                         /* (FUSES_FUCFG12) BOOTROM NONSEC C EBI secure/non-secure Position */
+#define FUSES_FUCFG12_NONSECC_EBI_Msk         (_UINT32_(0x1) << FUSES_FUCFG12_NONSECC_EBI_Pos)     /* (FUSES_FUCFG12) BOOTROM NONSEC C EBI secure/non-secure Mask */
+#define FUSES_FUCFG12_NONSECC_EBI(value)      (FUSES_FUCFG12_NONSECC_EBI_Msk & (_UINT32_(value) << FUSES_FUCFG12_NONSECC_EBI_Pos)) /* Assigment of value for NONSECC_EBI in the FUSES_FUCFG12 register */
+#define FUSES_FUCFG12_Msk                     _UINT32_(0x007FFFFF)                                 /* (FUSES_FUCFG12) Register Mask  */
 
 #define FUSES_FUCFG12_NONSECC_SERCOM_Pos      _UINT32_(0)                                          /* (FUSES_FUCFG12 Position) BOOTROM NONSEC C SERCOM4 secure/non-secure */
 #define FUSES_FUCFG12_NONSECC_SERCOM_Msk      (_UINT32_(0xF) << FUSES_FUCFG12_NONSECC_SERCOM_Pos)  /* (FUSES_FUCFG12 Mask) NONSECC_SERCOM */

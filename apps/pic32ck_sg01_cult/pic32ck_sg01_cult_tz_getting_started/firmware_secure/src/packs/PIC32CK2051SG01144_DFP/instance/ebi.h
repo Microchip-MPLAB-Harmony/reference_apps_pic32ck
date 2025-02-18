@@ -1,7 +1,7 @@
 /*
  * Instance header file for PIC32CK2051SG01144
  *
- * Copyright (c) 2023 Microchip Technology Inc. and its subsidiaries.
+ * Copyright (c) 2024 Microchip Technology Inc. and its subsidiaries.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2023-11-16T06:44:02Z */
+/* file generated from device description file (ATDF) version 2024-04-02T09:16:38Z */
 #ifndef _PIC32CKSG01_EBI_INSTANCE_
 #define _PIC32CKSG01_EBI_INSTANCE_
 

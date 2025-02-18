@@ -4,16 +4,16 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>tz_pic32ck_sg01_cult</name>
-            <creation-uuid>38184ceb-941f-4f3c-b4ee-48d559dfb180</creation-uuid>
+            <creation-uuid>4eee2d88-e642-4fdf-bd4e-87a7464cd38c</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects>
-                <make-dep-project>..\..\firmware_secure\tz_pic32ck_sg01_cult_secure.X</make-dep-project>
+                <make-dep-project>../../firmware_secure/tz_pic32ck_sg01_cult_secure.X</make-dep-project>
             </make-dep-projects>
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>default</name>
+                    <name>pic32ck_sg01_cult</name>
                     <type>2</type>
                 </confElem>
             </confList>
